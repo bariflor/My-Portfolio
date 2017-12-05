@@ -1,3 +1,6 @@
+* {
+  outline: 1px solid red; }
+
 body {
   margin: 0;
   padding: 0;
@@ -180,9 +183,9 @@ hr {
 /*===================================
 =            media Query            =
 ===================================*/
-@media (max-width: 600px) {
-  #portada {
-    height: 820px !important; }
+@media (min-width: 200px) and (max-width: 534px) {
+  #section-2-portada {
+    height: 1200px !important; }
 
   #portada-container {
     width: 300px !important;
@@ -201,11 +204,8 @@ hr {
       text-align: justify;
       font-size: 15px !important;
       font-family: 'Kurale', serif; }
-    #section-3-about #carouselExampleSlidesOnly {
-      width: 250px;
-      position: relative !important;
-      left: 70px;
-      border: 15px solid white; }
+    #section-3-about #about-bari {
+      display: none !important; }
 
   #section-4-skills {
     height: 1200px !important; }

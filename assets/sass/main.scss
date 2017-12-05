@@ -1,5 +1,5 @@
 *{
-	// outline: 1px solid red;
+	outline: 1px solid red;
 }
 body{
 	margin: 0;
@@ -220,18 +220,15 @@ background: linear-gradient(to right, #FFB88C, #DE6262); /* W3C, IE 10+/ Edge, F
 /*===================================
 =            media Query            =
 ===================================*/
-@media (max-width: 600px) {
+@media ( min-width: 200px) and (max-width: 534px) {
 // SECTION-1-PORTADA
-	#portada {
-	    height: 820px !important;
+	#section-2-portada{
+	    height: 1200px !important;
 	}
 	#portada-container {
 	    width: 300px !important;
 	    position: absolute;
 	    left: 40px;
-	    h1{
-	    	// font-family: 'Calligraffitti', cursive;
-	    }
 	}
 // SECTION-2-ABOUT
   #section-3-about {
@@ -251,11 +248,8 @@ background: linear-gradient(to right, #FFB88C, #DE6262); /* W3C, IE 10+/ Edge, F
 	  	font-family: 'Kurale', serif;
 	  }
 
-	#carouselExampleSlidesOnly{
-		width: 250px;
-		position: relative !important;
-		left: 70px;
-		border: 15px solid white;
+	#about-bari{
+	  display: none!important;
 	}
   }
  //section-4-skills
@@ -267,7 +261,6 @@ background: linear-gradient(to right, #FFB88C, #DE6262); /* W3C, IE 10+/ Edge, F
 	 width: 100px;
 	 top: 36%;
      left: 43%;
-	 // border: 5px solid red;
  	}
  	#skills-bari{
 	  display: none;
