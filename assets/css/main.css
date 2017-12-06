@@ -1,3 +1,6 @@
+* {
+  outline: 1px solid red; }
+
 body {
   margin: 0;
   padding: 0;
@@ -180,13 +183,13 @@ body {
     height: 400px; }
   #section-3-about h1 {
     position: relative;
-    top: 250px; }
+    top: 300px; }
   #section-3-about #about-texto {
     position: relative;
-    top: 100px; }
+    top: 150px; }
   #section-3-about #about-bari {
     position: relative;
-    top: 100px; }
+    top: 150px; }
   #section-3-about #iconos {
     width: 400px; }
   #section-3-about button {
