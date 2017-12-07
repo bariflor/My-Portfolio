@@ -180,13 +180,14 @@ body {
     height: 400px; }
   #section-3-about h1 {
     position: relative;
-    top: 300px; }
+    top: 300px;
+    text-align: center; }
   #section-3-about #about-texto {
     position: relative;
-    top: 150px; }
+    top: 200px; }
   #section-3-about #about-bari {
     position: relative;
-    top: 150px; }
+    top: 200px; }
   #section-3-about #iconos {
     width: 400px; }
   #section-3-about button {
@@ -395,9 +396,11 @@ body {
   #contact-us p {
     position: relative;
     top: 50px;
+    left: 20px;
     width: 70%;
     color: white;
-    text-align: center; }
+    text-align: center;
+    padding: 15px; }
   #contact-us .icon-phone, #contact-us .icon-mail, #contact-us .icon-location, #contact-us .icon-check_circle {
     font-size: 80px;
     color: white;

@@ -202,15 +202,15 @@ body{
 	h1{
 	  position: relative;
 	  top: 300px;
-
+	  text-align: center;
 	}
 	#about-texto{
 	  position: relative;
-	  top: 150px;
+	  top: 200px;
 	}
 	#about-bari{
 	  position: relative;
-	  top: 150px;
+	  top: 200px;
 	  // border: 15px solid white;
 	}
 	#iconos{
@@ -475,9 +475,11 @@ body{
     p{
     	position: relative;
     	top: 50px;
+    	left: 20px;
     	width: 70%;
     	color: white;
     	text-align: center;
+    	padding: 15px;
     }
     .icon-phone, .icon-mail, .icon-location, .icon-check_circle{
     	font-size: 80px;
