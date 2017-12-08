@@ -19,7 +19,7 @@
 </head>
 <body>
 	<!--========================================
-	=            Section #1 navbar            =
+	=            Section #1 HEADER            =
 	=========================================-->
 	<div class="container">
 		<nav id="menu" class="navbar navbar-expand-lg navbar-light bg-light text-white fixed-top">
@@ -32,7 +32,7 @@
 		    <div class="navbar-nav">
 		      <a class="nav-item nav-link" href="#section-2-portada">Portada</a>
 		      <a class="nav-item nav-link" href="#section-3-about">Sobre Mi</a>
-		      <a class="nav-item nav-link" href="#section-4-skills">Mis Aptitudes</a>
+		      <a class="nav-item nav-link" href="#section-4-skills">My Skills</a>
 		      <a class="nav-item nav-link" href="#portafolio">Portafolio</a>
 		      <a class="nav-item nav-link" href="#contact-us">Contacto</a>
 		    </div>
@@ -96,7 +96,7 @@
 			    <div class="col-xs12 col-sm12 col-md-5 col-lg-5 col-xl-6" id="about-texto">
 			      <p>Hola! Soy Bari Flor y soy Diseñadora Web.</p>
 			      <p>Me considero una persona responsable, creativa, con iniciativa y puntualidad, asumo con agrado los retos y metas que su organización me pudiera plantear; con buen manejo de relaciones interpersonales, facilidad para trabajar en equipo y lograr las metas trazadas por la empresa y mi grupo de trabajo.</p>
-			      <a href="assets/documentos/cv-Bari-Flor.pdf" target="_blank"><button type="button"  class="btn btn-outline-warning">Descargar CV</button></a>
+			      <a class="descargar" target="_blank" href="assets/documentos/cv-Bari-Flor.pdf" download="cv-Bari-Flor.pdf" rel="noopener noreferrer">Descargar CV</a>
 			   </div>
 			  	<div class="col-xs12 col-sm-12 col-md-3 col-lg-3 col-xl-3" id="about-bari">
 			  	  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
@@ -123,7 +123,7 @@
 		<div class="container-fluid">
 		  <div class="row">
 			  	<div class="col-xs-12 col-sm12 col-md-2 col-lg-2 col-xl-2">
-			  		<h1 class="text-center">MIS <br><span class="text-warning">APTITUDES</span></h1>
+			  		<h1 class="text-center">MY <br><span class="text-warning">SKILLS</span></h1>
 			  	</div>
 			  	<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3" id="skills-bari">
 
@@ -133,43 +133,43 @@
 			  		<p>Cuando conocí  el ecosistema tecnológico, me quedé encantada de este mundo,porque existen lenguajes y frameworks. Que me fue de mucha utilidad para realizar los proyectos.
 			  		<div class="row">
 			  			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-			  				<h4>HTML</h4>
 					  		<img src="assets/img/html5.svg" width="50">
+			  				<span>HTML</span>					  		
 					  		<div class="progress">
 							  <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="75">75%</div>
 							</div><br>
 						</div>
 						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-							<h4>CSS</h4>
 					  		<img src="assets/img/css3.svg" width="50">
+					  		<span>CSS</span>
 							<div class="progress">
 							  <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="75">75%</div>
 							</div><br>
 						</div>
 						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-							<h4>JQUERY</h4>
 							<img src="assets/img/jquery.svg" width="50">
+							<span>JQUERY</span>
 							<div class="progress">
 							  <div class="progress-bar bg-warning" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="25">25%</div>
 							</div><br>
 			  			</div>
 			  			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-			  				<h4>BOOTSTRAP</h4>
 							<img src="assets/img/bootstrap.svg" width="50">
+							<span>BOOTSTRAP</span>
 							<div class="progress">
 							  <div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="50">50%</div>
 							</div><br>
 						</div>
 						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-							<h4>SASS</h4>
 							<img src="assets/img/sass.svg" width="50">
+							<span>SASS</span>
 							<div class="progress">
 							  <div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="50">50%</div>
 							</div><br>
 						</div>
 						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-							<h4>WORDPRESS</h4>
 							<img src="assets/img/wordpress.svg" width="50">
+							<span>WORDPRESS</span>
 							<div class="progress">
 							  <div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="50">50%</div>
 							</div><br>
@@ -205,7 +205,7 @@
 	      </div><br>
 	  </div>
 	    
-	  <div class="row">
+	  <div class="row" id="portafolio-imagen">
 	       <div  class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 	      	  <a class="snip1543" target="_blank" href="https://bariflor.github.io/Proyecto-cloneAmazon/"><img src="assets/img/amazon.jpg"></a>
 			  <h4>AMAZON</h4>
@@ -252,19 +252,19 @@
 	
 	<div class="container-fluid " id="contact-us">
 		<div class="row">
-	      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+	      <div class="contacto-icono" class="col-3 col-sm-3 col-md-3 col-lg-3">
 			<span class="icon-phone"></span>
 			<p>Phone: 975608851</p>
 		  </div>
-		  <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+		  <div class="contacto-icono" class="col-3 col-sm-3 col-md-3 col-lg-3">
 			<span class="icon-mail"></span>
 			<p>barihuamachuco@gmail.com</p>
 		  </div>
-		  <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+		  <div class="contacto-icono" class="col-3 col-sm-3 col-md-3 col-lg-3">
 			<span class="icon-location"></span>
 			<p>Arequipa-Perú</p>
 		  </div>
-		  <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+		  <div class="contacto-icono" class="col-3 col-sm-3 col-md-3 col-lg-3">
 			<span class="icon-check_circle"></span>
 			<p>Freelancer</p>
 		  </div>

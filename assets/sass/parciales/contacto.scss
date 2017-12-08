@@ -1,0 +1,29 @@
+/*=============================================
+=            Section #6 contacto            =
+=============================================*/
+#contact-us{
+	background-color: #444444;
+    height: 200px;
+    // .contacto-icono{
+    //     // width: 100px;
+    // }
+    
+    // p{
+    // 	// position: relative;
+    // 	// top: 50px;
+    // 	// left: 20px;
+    // 	// width: 70%;
+    // 	// color: white;
+    // 	// text-align: center;
+    // 	// padding: 15px;
+    // }
+    .icon-phone, .icon-mail, .icon-location, .icon-check_circle{
+    	font-size: 80px;
+    	color: white;
+    	position: relative;
+    	top: 50px;
+    	left: 80px;
+        
+    }
+    
+}

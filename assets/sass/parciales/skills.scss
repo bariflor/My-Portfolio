@@ -1,0 +1,56 @@
+/*===============================
+=            section #4 - skills  =
+===============================*/
+
+#section-4-skills{
+	color: white;
+	background: #BA5370;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F4E2D8, #BA5370);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F4E2D8, #BA5370); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	width: 100%;
+	height: 700px !important;
+	.row{
+	  height: 500px;
+	}
+	h1{
+	  position: relative;
+	  top: 550px;
+
+	}
+	#skills-bari{
+	  height: 700px;
+	  background-image: url(../img/skill-1.jpg);
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	}
+	#skill-progress{
+	  position: relative;
+	  top: 100px;
+	  .row{
+	  	.col-xs-6{
+	  		display: inline-block;
+	  		span{
+	  			position: relative;
+	  			top: 10px;
+	  		}
+	  	}
+	  }
+	}
+}
+
+  .parallax { 
+    background-image:url(../img/mari.jpg);
+    height: 400px; 
+    text-align: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-filter: contrast(10%);
+    filter: contrast(90%);
+    h2{
+    	padding: 20px;;
+	  font-family: 'Calligraffitti', cursive;
+    }
+  
+}  

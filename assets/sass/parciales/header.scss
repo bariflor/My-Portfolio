@@ -1,0 +1,13 @@
+/*===============================
+=       section #1 HEADER       =
+===============================*/
+.navbar{
+    height: 60px;
+    background: #D9A7C7 !important;  
+    transition: all 1s ease;   
+}
+        
+.navbar-light .navbar-nav .nav-link {
+    color: white !important;
+    padding: 20px;
+}
