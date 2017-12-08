@@ -6,13 +6,15 @@
 .navbar-light .navbar-nav .nav-link {
     color: white !important;
     padding: 20px;
-    // height: 50px !important;
-    background: rgba(91, 0, 49, 0.5);
+    height: 95px !important;
+    background: rgba(50, 0, 49, 0.5);
+    text-align: center;
+    font-size: 30px;
 }
 
 // SECTION-1-PORTADA
 	#section-2-portada{
-	    height: 300px !important;
+	    height: 700px !important;
       width: 100% !important;
 
 	  #portada-container {
@@ -28,8 +30,8 @@
     height: 600px !important;
     width: 100% !important;
     h1{
-        // border: 2px solid red;
-    	position: static !important;
+    	position: relative !important;
+      top: 30px;
     	text-align: center;
     	font-family: 'Kurale', serif;
     }
@@ -85,22 +87,48 @@
 }
  //contacto
  #contact-us{
- 	height: 50%;
+  width: 100%;
+ 	height: 200px;
   .contacto-icono{
         width: 50px;
     }
  	p{
- 		position: static;
-    width: 30% !important;
+ 		color: white;
     }
-  .icon-phone, .icon-mail, .icon-location, .icon-check_circle{
-    	font-size: 60px !important;
+  .icon-phone, .icon-mail{
+    	font-size: 30px !important;
     	color: white;
-    	position: static;
     }
+    .icon-phone{
+      position: relative;
+      top: 50px;
+      left: 10px;
+      // padding: 20px;
+    }
+    #phono{
+      width: 50px;
+      height: 10px;
+      position: relative;
+      top: 50px;
+      left: 10px;
+      font-size: 12px;
+    }
+    .icon-mail{
+      position: relative;
+      bottom: 30px;
+      left: 150px;
+    }
+    #mail{
+      position: relative;
+      left: 50px;
+      height: 9px;
+      font-size: 10px;
+    }
+
    }
-   .icon-location, .icon-check_circle{
+   .icon-location, .icon-check_circle, #parrafo, #arequipa{
      display: none;
    }
+   
 }
 

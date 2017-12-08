@@ -4,26 +4,35 @@
 #contact-us{
 	background-color: #444444;
     height: 200px;
-    // .contacto-icono{
-    //     // width: 100px;
-    // }
-    
-    // p{
-    // 	// position: relative;
-    // 	// top: 50px;
-    // 	// left: 20px;
-    // 	// width: 70%;
-    // 	// color: white;
-    // 	// text-align: center;
-    // 	// padding: 15px;
-    // }
+    p{
+        position: relative;
+        top: 50px;
+        padding: 20px;
+        color: white;
+    }
     .icon-phone, .icon-mail, .icon-location, .icon-check_circle{
-    	font-size: 80px;
+        font-size: 80px;
     	color: white;
     	position: relative;
     	top: 50px;
-    	left: 80px;
-        
+        left: 15px;
     }
-    
+    .icon-phone{
+        position: relative;
+        left: 55px !important;
+    } 
+    .icon-mail{
+        position: relative;
+        left: 80px !important;
+    }
+    .icon-location{
+        padding: 10px;
+    } 
+    .icon-check_circle{
+        padding: 0 30px 0 30px;
+    }
+    #parrafo{
+        position: relative;
+        left: 30px;
+    }
 }
